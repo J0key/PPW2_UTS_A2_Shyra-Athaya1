@@ -37,9 +37,7 @@
 
 </head>
 <body>
-    <div class="flex flex-col">
-        @include('layouts.navbar')
-    </div>
+    @include('layouts.navbar')
     
     @yield('body')
     
